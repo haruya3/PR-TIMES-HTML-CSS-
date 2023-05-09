@@ -1,3 +1,12 @@
+.body-container{
+    display: grid;
+    grid-template-rows: 75px 36px 263px auto 356px;
+    width: 100%;
+    min-width: 1440px;
+    height: auto;
+    min-height: 1574px;
+}
+
 .header{
     width: 100%;
     min-width: 1440px;
@@ -161,4 +170,46 @@
 
 .main-header_border{
     color:#BFC9D7;
+}
+
+.category{
+    width: 100%;
+    min-width: 1440px;
+    height: 36px;
+    background-color: #3081C9;
+}
+
+.ranking{
+    width: 100%;
+    min-width: 1440px;
+    height: 263px;
+    background-color: aqua;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1.4fr 0.6fr;
+    margin: 0 auto;
+    width: 1127px;
+    height: auto;
+    background-color: bisque;
+}
+
+.content{
+    /* width: 779px; */
+    background-color: rebeccapurple;
+}
+
+.side{
+    background-color:#3081C9;
+    /* width: 312px; */
+    height: 733px;
+    /* background-color: brown; */
+}
+
+.footer{
+    width: 100%;
+    min-width: 1440px;
+    height: 356px;
+    background-color: yellow;
 }
