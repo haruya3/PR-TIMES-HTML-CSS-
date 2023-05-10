@@ -196,10 +196,75 @@
 }
 
 .ranking{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     min-width: 1440px;
     height: 263px;
-    background-color: aqua;
+    background-color: #F2F2F2;
+}
+
+.ranking-container{
+    display: grid;
+    grid-template-columns: repeat(6, 181px);
+    grid-gap: 5px;
+}
+
+.ranking-article{
+    display: grid;
+    grid-template-rows: 100px 119px;
+    height: 218px;
+    width: 181px;
+}
+
+ .ranking-article_img{
+    display: grid;
+    position: relative;
+}
+
+.ranking_number{
+    position: absolute;
+    grid-area: 1 / 1 / span 1 / span 1;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+    background-color: #294C7A;
+}
+
+.ranking-article_img img{
+    height: 100px;
+    object-fit: contain;
+}
+
+.ranking-article_content{
+    background-color: #FFFFFF;
+}
+
+.ranking-article_content-container{
+    display: grid;
+    grid-template-rows: 54px 13px 12px 10px;
+    gap: 5px;
+    margin: 0 10px;
+}
+
+.time{
+    display: grid;
+    grid-template-columns: 15px 44px;
+}
+
+.ranking-article_content-container p{
+    font-family: Hiragino Kaku Gothic ProN;
+}
+
+.text--normal{
+    font-size: 13px;
+}
+
+.text--color-faint{
+    font-size: 12px;
+    color: #A2A2A2;
 }
 
 .main{
