@@ -349,7 +349,6 @@ body * p, a{
 }
 
 .side{
-    padding-top: 40px;
     display: grid;
     grid-template-rows: 16px 73px;
     gap: 40px;
