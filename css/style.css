@@ -22,7 +22,6 @@ body {
 }
 
 .button--keyword-more{
-    font-weight: 400;
     font-size: 12px;
     border: 1px solid #F1F1F1;
     border-radius: 11px;
@@ -96,7 +95,6 @@ body {
     min-width: 335px;
     color: #BFC9D7;
     font-size: 12px;
-    font-weight: 400;
 }
 
 .release{
@@ -124,7 +122,6 @@ body {
 .relese_text{
     width: auto;
     height: 13px;
-    font-weight: 400;
     font-size: 13px;
     line-height: 18px;
     color: #FFFFFF;
@@ -190,7 +187,6 @@ body {
 .main-header_text{
     width: auto;
     height: 13px;
-    font-weight: 400;
     font-size: 13px;
     line-height: 18px;
     color: #FFFFFF;
@@ -219,7 +215,6 @@ body {
     font-size: 13px; 
     color: #294C7A;
     font-style: normal;
-    font-weight: 400;
 }
 
 .ranking{
@@ -302,7 +297,7 @@ body {
 
 .contents_headline{
     width: 212px;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 24px;
 }
 
@@ -333,7 +328,7 @@ body {
 }
 
 .article-container_title{
-    font-weight: 700;
+    font-weight: bold;
     font-size: 14px;
 }
 
@@ -358,7 +353,7 @@ body {
 }
 
 .side_headline{
-    font-weight: 700;
+    font-weight: bold;
     font-size: 18px;
 }
 
@@ -374,7 +369,6 @@ body {
 
 .hot-keyword{
     text-align: center;
-    font-weight: 400;
     font-size: 12px;
     color: #3B3B3B;
     background-color: #F1F1F1;
@@ -412,7 +406,6 @@ body {
 }
 
 .footer_list-title{
-    font-weight: 400;
     font-size: 13px;
     line-height: 100%;
 }
@@ -420,7 +413,6 @@ body {
 .footer_list-element{
     max-width: 281px;
     color: #797979;
-    font-weight: 400;
     font-size: 12px;
     line-height: 100%;
 }
@@ -460,14 +452,12 @@ body {
 
 .footer_term{
     color: #797979;
-    font-weight: 400;
     font-size: 12px;
     line-height: 100%;
 }
 
 .copyright{
     color: #797979;
-    font-weight: 400;
     font-size: 11px;
     line-height: 100%;
 }
