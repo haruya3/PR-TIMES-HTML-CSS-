@@ -158,14 +158,16 @@ body {
 .keyword-container_input{
     width: 258px;
     height: 30px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     padding-left: 10px;
     font-size: 12px;
 }
 
 .keyword-container_button{
     background-color: #3081C9;
-    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     padding: 5px
 }
 
